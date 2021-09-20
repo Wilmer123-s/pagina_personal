@@ -1,0 +1,37 @@
+.padre{
+		background-color:blue;
+		POSITION:RELATIVE;
+		
+		width:90%;
+		height:100%;
+		margin:5% auto;
+		
+		}
+		.med{
+		background-color:silver;
+		POSITION:ABSOLUTE;
+		width:40%;
+		height:50%;
+		margin:0;}
+		.med1{
+		background-color:green;
+		POSITION:ABSOLUTE;
+		top:50%;
+		width:40%;
+		height:50%;
+		margin:0;}
+		div.con1{
+		background-color:green;
+		POSITION:ABSOLUTE;
+		left:40%;
+		width:60%;
+		height:50%;
+		margin:0;}
+		div.con{
+		background-color:RED;
+		POSITION:ABSOLUTE;
+		TOP:50%;
+		left:40%;
+		width:60%;
+		height:50%;
+		margin:0;}

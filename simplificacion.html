@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Simplificacion</title>
+</head>
+<body>
+<script>
+
+
+var c,d,n2,ns,ds;
+num=parseInt(prompt("Ingrese el numerador: ",""));
+den=parseInt(prompt("Ingrese el denominador: ",""));
+var primos=new Array();
+	for(a=1;a<=num;a++){
+			num2=num%a;
+			den2=den%a;
+			if(num2==0&&den2==0){
+				sn=num/a;
+				sd=den/a;
+			}
+		}
+		if (sd!=1){
+		document.write(sn+'/'+sd);
+		}
+		else {
+			if(sn==sd){
+				document.write('1');
+			}
+			else{
+				if (sd==1){
+					document.write(sn);
+				}
+			}
+		}	
+
+
+</script>
+</body>
+</html>
